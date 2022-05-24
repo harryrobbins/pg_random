@@ -1,18 +1,18 @@
 {
-   "name": "pair",
-   "abstract": "A key/value pair data type",
-   "description": "This library contains a single PostgreSQL extension, a key/value pair data type called “pair”, along with a convenience function for constructing key/value pairs.",
-   "version": "0.1.8",
+   "name": "random",
+   "abstract": "A set of functions to provide random choices, dates, floats",
+   "description": "This library contains a single PostgreSQL extension containing a series of helper functions that produce random values",
+   "version": "0.0.1",
    "maintainer": [
-      "David E. Wheeler <david@justatheory.com>"
+      "Harry Robbins <dhello@surprisingly.ltd>"
    ],
    "license": "postgresql",
    "provides": {
-      "pair": {
-         "abstract": "A key/value pair data type",
-         "file": "sql/pair.sql",
-         "docfile": "doc/pair.md",
-         "version": "0.1.2"
+      "random": {
+         "abstract": "A set of helper functions to produce random values",
+         "file": "sql/random.sql",
+         "docfile": "doc/random.md",
+         "version": "0.0.1"
       }
    },
    "prereqs": {
