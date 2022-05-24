@@ -1,0 +1,5 @@
+# pair extension
+comment = 'A set of helper functions to produce random data'
+default_version = '0.0.1'
+module_pathname = '$libdir/random'
+relocatable = true

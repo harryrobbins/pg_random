@@ -24,24 +24,24 @@
    },
    "resources": {
       "bugtracker": {
-         "web": "https://github.com/theory/kv-pair/issues/"
+         "web": "https://github.com/harryrobbins/pg_random/issues"
       },
       "repository": {
-        "url":  "git://github.com/theory/kv-pair.git",
-        "web":  "https://github.com/theory/kv-pair/",
+        "url":  "git@github.com:harryrobbins/pg_random.git",
+        "web":  "https://github.com/harryrobbins/pg_random.git",
         "type": "git"
       }
    },
-   "generated_by": "David E. Wheeler",
+   "generated_by": "Harry Robbins",
    "meta-spec": {
       "version": "1.0.0",
       "url": "https://pgxn.org/meta/spec.txt"
    },
    "tags": [
-      "variadic function",
-      "ordered pair",
-      "pair",
-      "key value",
-      "key value pair"
+      "random",
+      "random choice",
+      "random generator",
+      "fake data",
+      "random data"
    ]
 }
